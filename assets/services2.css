@@ -1,0 +1,152 @@
+body {
+  background-color: #f3f3f3;
+}
+
+#skilldiv1 div:nth-child(1) {
+  background-color: purple;
+}
+#skilldiv1 div:nth-child(2) {
+  background-color: red;
+}
+#skilldiv1 div:nth-child(3) {
+  background-color: green;
+}
+
+#skilldiv div:nth-child(1) {
+  background-color: yellowgreen;
+}
+#skilldiv2 div:nth-child(2) {
+  background-color: palevioletred;
+}
+#skilldiv2 div:nth-child(3) {
+  background-color: brown;
+}
+#srimg {
+  background-image: url("service1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+#srimg h1 {
+  font-size: 50px;
+  text-align: justify;
+  padding-top: 300px;
+  color: black;
+  padding-right: 80px;
+  float: right;
+}
+#serdiv2{
+ background-color: white;
+  width: 100%;
+  color: white;
+}
+#serdiv1{
+ background-color: black;
+ width: 100%;
+ color: white;
+}
+#serdiv1 p, #serdiv2 p{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 22px;
+    text-align: justify;
+}
+#serdiv2 p , #serdiv2 h1{
+    color: black
+}
+
+
+#services h1 {
+  text-align: center;
+  font-size: 60px;
+}
+#services{
+    margin-top: 0%;
+}
+#services span {
+  color: gold;
+  font-size: 45px;
+}
+#services p{
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+#servsec {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.servcat {
+  display: flex;
+  background-color: white;
+}
+.servtext {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.servcat:hover{
+  border: 2px solid black;
+  box-shadow: 3px 3px black;
+}
+.servtext h1 {
+  font-size: 220%;
+  padding-left: -20%;
+}
+.servtext p {
+  font-size: 98%;
+}
+.servtext button {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 47px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  color: gold;
+  background-color: black;
+  justify-content: center;
+}
+.servtext button:hover{
+  background-color: darkgreen;
+}
+.servcat img {
+  width: 380px;
+  height: 380px;
+}
+.hidebutton {
+  display: none;
+}
+#servsec :hover{
+  opacity: 0.9;
+}
+@media (max-width: 991px) {
+  .servcat {
+    display: flex;
+    flex-direction: column;
+  }
+  .hideimg {
+    display: none;
+  }
+  .hidebutton {
+    display: block;
+    align-items: center;
+    padding: 0%;
+  }
+  .hidebutton img {
+    width: 100%;
+  }
+  .servtext button {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}

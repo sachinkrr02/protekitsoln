@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="services2.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+
+    <style>
+        .dropbtn {
+            background-color: inherit;
+            color: black;
+            padding: 12px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            padding: 0px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #0099ff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <a class="navbar-brand navbar-logo" href="#"><img id="logo" src="proteklogo.jpeg" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="far fa-address-book"></i>About US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services2.html"><i class="far fa-clone"></i>Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html"><i class="far fa-calendar-alt"></i>Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i> Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conact us.html"><i class="far fa-chart-bar"></i>Contact
+                        us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="srimg">
+        <h1>Accelerate business <br>
+            performance at reduced <br>
+            costs</h1>
+    </div>
+    <!--services-->
+    <div id="services">
+        <h1>Services By <span>ProTek It Solutions</span> </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente perferendis vel explicabo
+            nihil! Ex quaerat laborum obcaecati facilis distinctio odit nesciunt ab rerum, autem, quia tenetur quae
+            molestiae Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, temporibus sequi. Eaque itaque
+            voluptates animi ea totam ipsa quae tenetur.
+        </p>
+    </div>
+
+
+    <div id="servsec">
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Oracle Services</h1>
+                <p>Enterprise Resource Planning (ERP) systems are used by businesses of all sizes to integrate various
+                    business functions into one complete system to streamline day-to-day processes such as accounting,
+                    procurement, project management, human resource management, customer relationship management,
+                    inventory, risk management, and compliance, and supply chain operations.
+
+                    The world’s leading ERP solution provider, Oracle, presents enterprises with E-Business Suite (EBS)
+                    that supports enterprises in managing and optimizing enterprise-wide business processes seamlessly.
+                </p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="oracle.png" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Cloud infrastructure</h1>
+                <p>“75% of IT professionals view the public cloud as more secure than their own data centers” – Oracle
+                    and KPMG Cloud Threat Report 2020
+                    One of the most advanced and disrupting trends in computing, Cloud computing is a service that
+                    provides on-demand delivery of computing</p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="cloud.jpg" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Managed Services</h1>
+                <p>Technology, today, plays an integral role in contributing to a business’s success. Enterprises,
+                    although,
+                    find it challenging to maintain and manage the large, diverse, and complex IT landscapes. The
+                    complexity
+                    to manage and maintain existing systems increases high maintenance and operational costs.</p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="manage.jpg" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Analytics</h1>
+                <p>“Data-driven organizations are 23 times more likely to acquire customers, six times as likely to
+                    retain
+                    customers, and 19 times as likely to be profitable as a result” – McKinsey Global Institute
+                    Enterprises, in today’s digital era, must use analytics to embark on a successful digital
+                    transformation
+                    journey. Smart business analytics and data analytics tools can help enterprises in gaining a
+                    competitive
+                    advantage over less-informed peers.</p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="analysis.jpg" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>BlockChain</h1>
+                <p>One of the fastest-growing technologies of recent times, Blockchain has all the capabilities to
+                    transform
+                    enterprises across industries and is deemed to be the next big thing after the Internet. The
+                    technology
+                    can be defined as a list of records called blocks that are connected using cryptography where every
+                    block holds the cryptographic hash of the previous block, a timestamp, and transaction data, which
+                    is
+                    represented as a Merkle tree.
+
+                    Touted to be the future of technology, Blockchain has been widely accepted by enterprises and
+                    economies
+                    globally.</p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="blockchain.jpg" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Security</h1>
+                <p>81% of data breaches happen due to poor passwords. – Verizon Data Breach Investigations Report
+                    The technology world today prefers being passwordless to bear the nuances of managing multiple
+                    security keys to access systems. Passwordless authentication works across an integrated ecosystem of
+                    applications on-premise, cloud, online, and offline providing a unified user experience and an
+                    unprecedented level of identity assurance.</p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="security.jpg" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Identity & Access Management</h1>
+                <p>A data breach costs $3.86 million on average. – IBM
+                    Identity and Access Management (IAM or IDAM) is a framework of policies that enables enterprises to
+                    automate the entire user lifecycle and provides them with secure, fine-grained access to enterprise
+                    resources and assets. Identity and access management tools are crucial to enterprises and are
+                    increasingly business-aligned.</p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="sec.jpg" alt="">
+        </div>
+
+        <div class="servcat">
+            <div class="hidebutton">
+                <img src="home.jpg" alt="">
+            </div>
+            <div class="servtext">
+                <h1>Salesforces</h1>
+                <p>Pansoft Technologies offers a variety of Salesforce professional services, from auditing and implementation to support and system integrations. The components of Salesforce we work with are the sales cloud, service cloud, commerce cloud, marketing cloud, and education cloud. 
+
+                    With Salesforce implementation and technical services, we can improve the efficiency, productivity, and profitability of any organization by reducing costs, increasing revenues, and streamlining workflows. </p>
+                <button>Read More</button>
+            </div>
+            <img class="hideimg" src="salesforce.jfif" alt="">
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!--footer-->
+
+    <div id="footer">
+        <div id="contactus">
+            <div id="git">
+                <div id="gitsec">
+                    <div id="form">
+                        <h1>Feedback</h1>
+                        <form action="submit">
+                            <label for="fname">Name:</label><br>
+                            <input type="text" id="fname" name="First Name"><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="Email"><br>
+                            <label for="phone">Phone No:</label><br>
+                            <input type="tel" id="phone" name="Phone"><br>
+                            <label for="msg">Your Message:</label><br>
+                            <input id="textbox" type="text" id="msg" name="Your Message"><br>
+                        </form>
+                        <br>
+                        <button>Send Message</button>
+                    </div>
+                    <div id="info">
+                        <h1>Contact Details</h1><br>
+                        <h3>EMAIL</h3>
+                        <p>sachin@gmail.com</p>
+                        <h3>Phone</h3>
+                        <p>+91 637674XXXX</p>
+                        <h2>Head Office</h2>
+                        <p> Type 2, BHEL Township Jhansi,<br>Uttar Pradesh,India
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h1>ProTek </h1>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448183.7390574558!2d76.81307443000273!3d28.646677262871762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1662138349483!5m2!1sen!2sin"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <p class="lastp">ALL Right Reserverd @copy2022 | This Template is made by Sachin Kumar</p>
+            <div id="conimgdiv">
+                <img class="conimg" src="fb.png" alt="">
+                <img class="conimg" src="ig.png" alt="">
+                <img class="conimg" src="tw1.png" alt="">
+                <img class="conimg" src="li.png" alt="">
+                <img class="conimg" src="yt.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
